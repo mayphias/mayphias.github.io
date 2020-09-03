@@ -1,0 +1,70 @@
+/* style sheet for mayphias website*/
+
+body {
+	  color: black;
+	  background-image: url("back1.jpeg");
+}
+
+h1{
+ color: black
+ font-size: 300%;
+ transition:color 0.5s ease-in;
+		background-color: rgba(255,255,255, .65);
+	border: 2px black solid;
+	margin: 10px;
+	padding: 10px;
+}
+
+h1:hover {
+ color: red;
+ }
+
+#box {
+ transition: all 1s 2s ease-in;
+ }
+#box:hover {
+ transform: rotate(720deg);
+
+}
+
+nav{
+	background-color: rgba(255,255,255, .65);
+	border: 2px black solid;
+	margin: 10px;
+	padding:3px;
+	height: 80px
+}
+
+.para{
+	background-color: rgba(255,255,255, .65);
+	border: 2px black solid;
+	margin:10px;
+	padding: 3px;
+	width: 300px;
+	height: 80px;
+	
+}
+
+#head{
+	text-shadow: 5px 5px 2px rgba(100,100,100, .85);
+}
+
+footer{
+	background-color: rgba(255,255,255, .65);
+	border: 2px black solid;
+	margin: 10px;
+	padding: 1px;
+}
+
+a{
+	color:black;
+}
+
+a:visited{
+	color:purple;
+}
+
+a:hover{
+	color:yellow;
+	background-color: purple;
+}
