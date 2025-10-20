@@ -8,6 +8,7 @@ footer{
 
 footer img{
     max-width: 60px;
+    opacity: 0.6;
 }
 
 .footerNote{
